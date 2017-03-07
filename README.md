@@ -1,1 +1,1 @@
-# my-company-blog-materialized-view-web
+# my-company-blog-materialized-view-microservice
