@@ -7,7 +7,7 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguratio
 import com.idugalic.queryside.blog.domain.BlogPost;
 
 /**
- * A configuration of rest data respositories for {@link BlogPost} and {@link Project}.
+ * A configuration of rest data respositories for {@link BlogPost}.
  * 
  * @author idugalic
  *
