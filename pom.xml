@@ -7,18 +7,19 @@
 	<packaging>jar</packaging>
 	<name>my company blog materialized view microservice</name>
 	<description>Blog Materialized View - Query Side MicroService</description>
-
+	<version>1.0.0-SNAPSHOT</version>
+	
 	<parent>
 		<groupId>com.idugalic</groupId>
 		<artifactId>my-company-parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.idugalic</groupId>
 			<artifactId>my-company-blog-materialized-view</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.axonframework</groupId>
