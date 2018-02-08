@@ -12,8 +12,7 @@ Make sure that services are running:
  - [my-company-configuration-backingservice](https://github.com/ivans-innovation-lab/my-company-configuration-backingservice)
  - [my-company-registry-backingservice](https://github.com/ivans-innovation-lab/my-company-registry-backingservice)
  
-Make sure that you have this libraries installed in your local maven repsoitory:
-
+Dependencies:
  - [my-company-common (transient dependency)](https://github.com/ivans-innovation-lab/my-company-common)
  - [my-company-blog-materialized-view](https://github.com/ivans-innovation-lab/my-company-blog-materialized-view)
 
@@ -35,6 +34,9 @@ $ curl http://localhost:8081/blogposts
 ### rambittmq
 
 Open RabbitMQ management web console at http://localhost:15672/ and explore exchanges, queues and messages.
+
+username: guest
+password: guest
 
 ### registry backing service
 
